@@ -1,9 +1,10 @@
-import converters
-from converters import sayHello
+#3 different ways of having packages.
 
-converters.sayHello()
-print(round(converters.kg_to_lbs(70),1))
+#import ecommerce.shipping
+#ecommerce.shipping.calc_shipping()
 
-sayHello()
+#from ecommerce.shipping import calc_shipping
+#calc_shipping()
 
-
+#from ecommerce import shipping
+#shipping.calc_shipping()
